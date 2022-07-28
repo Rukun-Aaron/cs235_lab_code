@@ -4,7 +4,7 @@
 
 - **The benefits of using virtual environments to develop:**
 
-    - Working in distinct environments with their own distinct pacakages and python installation
+    - Wo55vrking in distinct environments with their own distinct pacakages and python installation
 
     - Using virtual environments, we can use different versions of a package.
      
@@ -69,7 +69,7 @@
     - Used the command to generate my file with all the necessary packages:
                 
             pip freeze requirements.txt
-                  
+
     
     
 
