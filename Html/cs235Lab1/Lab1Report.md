@@ -38,7 +38,7 @@
     - Markdown is a markup langauge most commonly used to write README.md files git up repositories.
     - The Breakpoint() function in python is useful for debugging; especially with the help of vs codes variable  
   ---
-  ## Reflection
+  ## **Reflection**
 
   **What I learnt:**
         
@@ -46,8 +46,8 @@
     - I learnt that conda is a system that allows the creation and management of such virtual environments. 
       - It does this by partitioning a portion of the drive and reserving it for virtualization when the enviroment is active
     
-    **Hands on tasks:**
-    1. Task 1: Create a virtual environment with Conda.
+    ## **Hands on tasks:**
+    ### 1. Task 1: Create a virtual environment with Conda.
         
         - Encountered an HTTP conncection failure after downloading conda and trying to set up a virtual environment. 
             
@@ -60,11 +60,12 @@
           
         ![image](CondaEnvSuccess.png)<br/>
      </br>
-    2. Installing a package
+
+    ### 2. Installing a package
     - I installed pyauto gui into the environment with no trouble:
 
         ![image](Package.png)  <br>
-    3. Generate requirements.txt file   
+    ### 3. Generate requirements.txt file   
             
     - Used the command to generate my file with all the necessary packages:
                 
@@ -73,7 +74,28 @@
         ![image](RequirementImage.png)
         ![image](Requirements.png)
     </br>
-    4.
-    
+    ### 4. Debugging questions and exercises: 
+     - **Question 1:** What is the probability of winning a game?
+            <br>
 
+        **Answer:**
+         ```python
+        def pickANumber():
 
+        return random.randint(1, 100)
+        ``` 
+           The probability of winning a game is 1/100 or 0.01 as the pickANumber function, which generates a random number, chooses a number between 1 and 100. This would lead to a 100 possibilities with the chance of us choosing the random number correctly being 1/100. 
+
+    - **Question 2:** Using the debugging feature, WITHOUT changing any code, it is possible to win every game. What line did you insert the breakpoint at? 
+       ```python
+       def computer_pick_number():
+        print(PICK_NUMBER)
+        number = pickANumber()
+        breakpoint()
+        return number
+        ``` 
+          I added a breakpoint() right after the program generates its random number and before it is returned to the main game function. 
+          
+          By doing this I was able to view what value for returned to number and guess the same number to guarantee my win every time.
+        ![Debuging_image](Q2.png)
+        ![Guess_image](Q2guess.png)
