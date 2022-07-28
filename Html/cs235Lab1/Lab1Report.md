@@ -69,7 +69,7 @@
     - Used the command to generate my file with all the necessary packages:
                 
             pip freeze requirements.txt
-                 
+                  
     
     
 
