@@ -49,17 +49,17 @@
     ## **Hands on tasks:**
     ### 1. Task 1: Create a virtual environment with Conda.
         
-        - Encountered an HTTP conncection failure after downloading conda and trying to set up a virtual environment. 
-            
-        ![image](HttpError.png)
-        <br>
-        After some googling, I realized this was attributed to conda's installer not copying some dll files from the Scripts to the Library\bin folder.
-        <br>
-        After manually copying them over, I was able to create the environment as such:
-        <br>
+    - Encountered an HTTP conncection failure after downloading conda and trying to set up a virtual environment. 
           
-        ![image](CondaEnvSuccess.png)<br/>
-     </br>
+      ![image](HttpError.png)
+      <br>
+      After some googling, I realized this was attributed to conda's installer not copying some dll files from the Scripts to the Library\bin folder.
+      <br>
+      After manually copying them over, I was able to create the environment as such:
+      <br>
+        
+      ![image](CondaEnvSuccess.png)<br/>
+   </br>
 
     ### 2. Installing a package
     - I installed pyauto gui into the environment with no trouble:
