@@ -1,5 +1,10 @@
 # CS 235 Lab 1 report
+## Sections
 
+  - [Notes](#notes-from-lab1)
+  - [Reflection](#reflection)
+  - [Tasks](#4-debugging-questions-and-exercises)
+---
 ## Notes from Lab1
 
 - **The benefits of using virtual environments to develop:**
@@ -45,9 +50,10 @@
     - I learnt about how and why one would want to employ a virtual environment to develop code in. 
     - I learnt that conda is a system that allows the creation and management of such virtual environments. 
       - It does this by partitioning a portion of the drive and reserving it for virtualization when the enviroment is active
-    
+    ---
+
     ## **Hands on tasks:**
-    ### 1. Task 1: Create a virtual environment with Conda.
+    ### 1. Create a virtual environment with Conda.
         
     - Encountered an HTTP conncection failure after downloading conda and trying to set up a virtual environment. 
           
@@ -101,3 +107,21 @@
         ![Guess_image](Q2guess.png)
     
     - **Question 3:** Using the debugging feature only, is it possible the user can win every game by guessing "42"?
+
+        By using the same breakpoint(): 
+        ```python
+        def computer_pick_number():
+        print(PICK_NUMBER)
+        number = pickANumber()
+        breakpoint()
+        return number
+        ```
+        I am able to edit the value of number before it is returned to the game function. 
+        ![original](Q3Original.png)
+        ![edditing_to_42](Q3AfterChange.png)
+        ![winning_output](Q3Win.png)
+            
+          I was able to overwrite the random number to 42 due the breakpoint() stopping the code just before the number was returned. 
+          Hence  we can always win by guessing 42, by overwriting the random number we have to guess. 
+    ### 4. [My Github Account](https://github.com/Rukun-Aaron)
+---

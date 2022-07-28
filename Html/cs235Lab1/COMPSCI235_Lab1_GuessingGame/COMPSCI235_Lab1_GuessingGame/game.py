@@ -33,7 +33,7 @@ def welcome():
 def computer_pick_number():
     print(PICK_NUMBER)
     number = pickANumber()
-    breakpoint()
+    # breakpoint()
     return number
 
 def user_guess(selected_number):
