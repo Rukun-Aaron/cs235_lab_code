@@ -69,8 +69,11 @@
     - Used the command to generate my file with all the necessary packages:
                 
             pip freeze requirements.txt
-
-    
+    - All the packages in the virual enviroment were added to the file. 
+        ![image](RequirementImage.png)
+        ![image](Requirements.png)
+    </br>
+    4.
     
 
 
