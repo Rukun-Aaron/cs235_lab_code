@@ -63,7 +63,14 @@
     2. Installing a package
     - I installed pyauto gui into the environment with no trouble:
 
-    ![image](Package.png)  
-    <>
+        ![image](Package.png)  
+    3. Generate requirements.txt file
+            
+    - Used the command to generate my file with all the necessary packages:
+                
+            pip freeze requirements.txt
+             
+    
+    
 
 
