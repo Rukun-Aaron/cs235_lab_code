@@ -99,3 +99,5 @@
           By doing this I was able to view what value for returned to number and guess the same number to guarantee my win every time.
         ![Debuging_image](Q2.png)
         ![Guess_image](Q2guess.png)
+    
+    - **Question 3:** Using the debugging feature only, is it possible the user can win every game by guessing "42"?
