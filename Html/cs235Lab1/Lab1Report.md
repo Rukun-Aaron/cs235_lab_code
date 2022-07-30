@@ -9,7 +9,7 @@
 
 - **The benefits of using virtual environments to develop:**
 
-    - Wo55vrking in distinct environments with their own distinct pacakages and python installation
+    - Working in distinct environments with their own distinct pacakages and python installation
 
     - Using virtual environments, we can use different versions of a package.
      
@@ -50,6 +50,8 @@
     - I learnt about how and why one would want to employ a virtual environment to develop code in. 
     - I learnt that conda is a system that allows the creation and management of such virtual environments. 
       - It does this by partitioning a portion of the drive and reserving it for virtualization when the enviroment is active
+    - I learnt how to generate and download all the packages listed in a file.
+    -  I learned how to implement breakpoints to help during debugging and how to manipulate variables with the debugging feature.
     ---
 
     ## **Hands on tasks:**
