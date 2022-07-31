@@ -81,10 +81,9 @@
       <br>
         
       ![image](CondaEnvSuccess.png)<br/>
-      
-      After activating my virtual environment, I made the hellow world folder and manually created a hello world python file:
-      ![image](Hellow.png)
-      ![image](h)
+
+      Then i proceeded to create a hello world directory and manually create a hello world file:
+      ![image](helloworld/Hellow.png) 
    </br>
 
     ### 2. Installing a package
@@ -95,7 +94,7 @@
             
     - Used the command to generate my file with all the necessary packages:
                 
-            pip freeze requirements.txt
+            pip freeze > requirements.txt
     - All the packages in the virual enviroment were added to the file. 
         ![image](RequirementImage.png)
         ![image](Requirements.png)
@@ -146,5 +145,5 @@
     ### 5. [My Github Account](https://github.com/Rukun-Aaron)
     I went online and created a github account using my university email
     The user name is [Rukun-Aaron](https://github.com/Rukun-Aaron).
-    ![image](github.png)
+
 ---
