@@ -1,4 +1,5 @@
-# CS 235 Lab 1 report
+# CS 235 Lab 1 report 
+##### Name : Rukun Aaron , Upi = raar518
 ## Sections
 
   - [Notes](#notes-from-lab1)
@@ -17,7 +18,7 @@
 
     - We can generate a file with all the package requirements easier. 
 
-- **We learnt how to set up a virtual environment using conda- a package and virtual enviroment manager:**
+- **How to set up a virtual environment using conda- a package and virtual enviroment manager:**
 
     > Creation of an enviroment: 
             
@@ -34,14 +35,27 @@
 
         conda deactivate environmentName
         
-
-- **Miscellaneous**
+- **What is an IDE**
+  - IDE stands for integrated development enviroment that consolidates the basic that help enable use to write, run and test code. 
+  - Two examples of IDE's used for python are:
+    - Visual Studio code by Microsoft.
+    - Pycharm for JETbrains 
+  - Both these IDE's boast code completion, error checking and debugging capabilities.  
+- **What is Debugging**
+  - As the name suggests, debugging is the act of finding and rectifying bugs & errors in our code. 
+   - The Breakpoint() function in python is useful for debugging; this is because it allows us to halt the program running at the location of where the breakpoint is and lets us see the current state of our variables. 
+- **Git & Github**
 
     - Git is a widely used version controll system. 
+      - Using git we are able to create branches and work and many different aspects of the software simultaniously. 
+      - We can see the history of our code being altered and revert to previous verions of the software if so need. 
+    - Github is a hosting platform for repository for collabrative projects. 
+      - Using Github many team members can clone the master branch of the repository onto their local machines, create a new branch, make changes or add featers and merge to back to the master branch. 
 
-        - Github is a hosting platform for repository for collabrative projects. 
-    - Markdown is a markup langauge most commonly used to write README.md files git up repositories.
-    - The Breakpoint() function in python is useful for debugging; especially with the help of vs codes variable  
+
+- **Markdown**
+  - Markdown is a markup langauge most commonly used to write README.md files git up repositories.
+   
   ---
   ## **Reflection**
 
@@ -125,5 +139,8 @@
             
           I was able to overwrite the random number to 42 due the breakpoint() stopping the code just before the number was returned. 
           Hence  we can always win by guessing 42, by overwriting the random number we have to guess. 
-    ### 4. [My Github Account](https://github.com/Rukun-Aaron)
+    ### 5. [My Github Account](https://github.com/Rukun-Aaron)
+    I went online and created a github account using my university email
+    The user name is [Rukun-Aaron](https://github.com/Rukun-Aaron).
+
 ---
