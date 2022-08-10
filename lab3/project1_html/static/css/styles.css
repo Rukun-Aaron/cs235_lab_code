@@ -2,7 +2,7 @@
     margin:1;
     background-color: black;
 }
-#header{
+#lab-report{
    
     font-weight: 300;
     padding: 0 16px;
@@ -12,11 +12,14 @@
 body{
     height: 200vh;
 }
-h1 {
+/* h1, h2{
     
     color:rgb(255, 255, 255);
-}
+} */
 
+body{
+    color:white;
+}
 .mytext {
     color:cornflowerblue;
 }
@@ -26,3 +29,13 @@ h1 {
     position: sticky;
     top: 0;
   }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
