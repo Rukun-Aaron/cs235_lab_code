@@ -8,14 +8,14 @@
   </head>
   <body>
     <!-- Add your HTML content here... -->
-    <div id="lab-report" class="sticky">
+    <div id="lab-report" >
       <div id="header"> 
         <header><h1>Cs 235 Lab 2 Report</h1></header>
         <hr>
       </div>
       <div class="sections">
         <Header><h2>Sections</h2></Header>
-        <ul>
+        <ul style="font-size:30px">
           <li>
             <a href="#what-is-git">Notes
           </li>
@@ -26,7 +26,90 @@
             <a href="#Student-A-Tasks">Tasks</a>
           </li>
         </ul>
-    </div>
+        <hr>
+        <h2 id="what-is-git"><strong>What is git?</strong></h2> 
+        <ul>
+          <li>
+          <p><strong>Git the most popular version control system in the world</strong>
+          </br></p>
+          <ul>
+          <li>It record the changes made to our code over type in a database, known as a repository.<br>
+          </br></li>
+          </ul>
+          </li>
+          <li>
+          <p><strong>Instead of manually saving version of a software, git allows us to verision code by doing the following:</strong></p>
+          <ul>
+          <li>Creating a repository  using following command (in our desired repository):</li>
+          
+          <pre class="hljs"><code><div>  git init
+          </div></code></pre>
+          
+          <li>Or going on github (a repository hosting service) and creating a repository and cloning to your local machine using:</li>
+          
+          <pre class="hljs"><code><div>Cloning with HTTPS URLS :
+
+git clone  https://github.com/Username/Your-Repository.git
+            </div></code></pre>
+            <pre class="hljs"><code><div>Cloning with SSH over the HTTPS port:
+
+git clone git@github.com:Username/Your-Repository.git
+            </div></code></pre>
+            
+              <li>Add a branch to make your changes:</li>
+              <!-- </ul> -->
+              <pre class="hljs"><code><div>Create a branch using:
+                
+git branch &lt;branch_name&gt;
+              
+Switch to the newly created branch:
+
+git checkout &lt;branch_name&gt;
+              </div></code></pre>
+              <li>Add a branch to make your changes:</li>
+              <pre class="hljs"><code><div>Create a branch using:
+
+git branch &lt;branch_name&gt;
+
+Switch to the newly created branch:
+
+git checkout &lt;branch_name&gt;
+                </div></code></pre>
+                
+                <li>After adding our changes we  push the branch to the remote repository:</li>
+                <pre class="hljs"><code><div>Stage all changes using:
+git add .
+
+Commit the changes and write a message using:
+git comming -m &l	t;Message&gt;
+
+Update the remote repository on github using: 
+git push origin &lt;branch_name&gt;
+
+Merge the new branch with the main/master branch:
+git checkout main
+git merge &lt;branch_name&gt;
+                  </div></code></pre>
+            </ul>
+    <h2>What is SSH and why do we use it</h2>           
+    <ul>
+      <li><strong>Github does not accept accept password to authenticate git commands; hence we use SSH to use to verify your identity</strong>.
+      <br></br>
+      <ol>
+      <li>
+      <p>We created a pair of SSH key doing the following:
+      <br></br></p>
+      <p><img src="Creatingkey.png" alt="Key-generation"></p>
+      </li>
+      <li>
+      <p>Then I uploaded my public key to my GitHub:
+      <br></br>
+      <img src="Key.png" alt="Key"></p>
+      </li>
+      </ol>
+      </li>
+      </ul>
+  </div>
       <hr>
   </body>
 </html>

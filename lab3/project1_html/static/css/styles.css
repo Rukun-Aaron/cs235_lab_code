@@ -7,6 +7,7 @@
     font-weight: 300;
     padding: 0 16px;
     font-size: 3vh;
+    
 
 }
 body{
@@ -30,6 +31,7 @@ body{
     top: 0;
   }
 
+
   ul {
     display: block;
     list-style-type: disc;
@@ -38,4 +40,51 @@ body{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
+}
+
+code{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size: 20px;
+    line-height: 19px;
+}
+pre {
+	background-color: #515151;
+	border: 1px solid #cccccc;
+	border-radius: 1px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #2aed34;
+	padding: 0.5em;
+}
+
+/* pre:not(.hljs), */
+pre.hljs code > div {
+	padding:    16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
 }
