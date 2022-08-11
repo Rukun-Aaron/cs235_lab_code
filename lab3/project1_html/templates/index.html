@@ -15,7 +15,7 @@
       </div>
       <div class="sections">
         <Header><h2>Sections</h2></Header>
-        <ul style="font-size:30px">
+        <ul >
           <li>
             <a href="#what-is-git">Notes
           </li>
@@ -27,6 +27,7 @@
           </li>
         </ul>
         <hr>
+        </div>  
         <h2 id="what-is-git"><strong>What is git?</strong></h2> 
         <ul>
           <li>
@@ -99,17 +100,101 @@ git merge &lt;branch_name&gt;
       <li>
       <p>We created a pair of SSH key doing the following:
       <br></br></p>
-      <p><img src="Creatingkey.png" alt="Key-generation"></p>
+      <img src="{{url_for('static', filename='Creatingkey.png')}}" alt="Key-generation">
       </li>
       <li>
       <p>Then I uploaded my public key to my GitHub:
       <br></br>
-      <img src="Key.png" alt="Key"></p>
+      <img src="{{url_for('static', filename='Key.png')}}" alt="Key"></p>
       </li>
       </ol>
-      </li>
       </ul>
   </div>
       <hr>
-  </body>
-</html>
+      <h2 id="reflection"><strong>Reflection</strong></h2>
+      <p><strong>What I learnt:</strong></p>
+      <ul>
+        <li>I learnt various about various features of Git and Github which include:
+        <ul>
+        <li>Creating a repository</li>
+        <li>Cloning a repository</li>
+        <li>How to create a branch</li>
+        <li>How to push changes and merge branch</li>
+        <li>What forking is and how to create pull requests.</li>
+        <li>How to generate and add SSH keys to GitHub</li>
+        </ul>
+        </li>
+        </ul>
+        <hr>
+      <h2 id="Student-A-Tasks"><strong>Student A Tasks:</strong></h2>
+      <ol>
+        <li>
+        <p><strong>Create a repository on GitHub and clone it:</strong></p>
+        <p><img src="{{url_for('static', filename='Repository.png')}}" alt="Repo">
+        <br>
+        <img src="{{url_for('static', filename='clone.png')}}" alt="Clone-Repo"></p>
+        </li>
+        <li>
+          <p><strong>Activating a virtual environment, generating a requirements file and adding the <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">startup project</a> to the repository:</strong></p>
+          <p><img src="{{url_for('static', filename='CreateVm.png')}}" alt="setting-up-ve"></p>
+        </li>
+        <li>
+          <p><strong>Stage and commit changes to the main branch of the repository</strong></p>
+          <ul>
+          <li><strong>Staged and commited files :</strong></li>
+          <p><img src="{{url_for('static', filename='StageandCommit.png')}}" alt="stage-commit"></p>
+          <li>
+            <p><strong>Pushed changes to the remote repo</strong></p>
+            <p><img src="{{url_for('static', filename='gitpush.png')}}" alt="push"></p>
+            </li>
+          </li>
+        <li>
+          <p><strong>Create a new branch, modify the code on the branch and merge changes:</strong></p>
+          <ul>
+          <li>
+          <p><strong>Creating and switching to branch rand:</strong></p>
+          <p><img src="{{url_for('static', filename='Branch.png')}}" alt="branch-creation"></p>
+        </li>
+        <li>
+          <p><strong>I implemented the getRand() function in the rand branch:</strong></p>
+          <pre class="hljs"><code><div>  <span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">get_rand</span><span class="hljs-params">()</span>:</span>
+          
+            my_randint = np.random.randint(<span class="hljs-number">0</span>, <span class="hljs-number">100</span>)
+            <span class="hljs-keyword">return</span> my_randint
+          </div></code></pre>
+        </li>
+        <li><p><strong>Delete Branch</strong></p>
+          <p>I delete the branch using:</p>
+          <p><img src="{{url_for('static', filename='delete.png')}}" alt="delete"></p>
+          </li>
+        </ul>
+      </ul>
+          <li>
+            <p><strong>Answer the following questions</strong></p>
+            </li>
+         
+            <pre><code>Question 1:
+            
+In a scenario, where you work with others as a team. You wrote some code 
+using the lab machine, but the code isn't working. You decide to continue 
+working on the code from home. What's the best way to commit your unfinished code
+to GitHub without interrupt others? What commands do you need to achieve that?
+
+Answer:
+The best way to commit the unfinished code to GitHub is by creating and publishing your changes to new temporary branch that is seperate from the main / branch development was occuring on.
+
+Question 2:
+
+Explain the difference between merge and fork. Give an example for each use case.
+
+Answer: 
+
+Merging is the way that Git &amp; GitHub merges two seperate deveopment histories into one. Ussually Usually when developing software, there are multiple branches that team members work on to fix bugs, add new features etc; when one of these features is ready to be added to the main branch, the feature branch and the main branch are merged together. Merging is mostly done between branches, but can also be done between repositories. 
+
+
+Forking is the act of &quot;forking&quot; a copy of someones repository onto your account, this allows you to, after cloning it,  make any changes to the repository without effecting the original repository. After making your changes, you can create a pull request  to the owner to merge your changes with the original repo.
+            </code></pre>
+          </li>
+          </ol>
+            </body>
+            </html>

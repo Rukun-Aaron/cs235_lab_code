@@ -6,20 +6,20 @@
    
     font-weight: 300;
     padding: 0 16px;
-    font-size: 3vh;
+    font-size: 16px;
     
 
 }
 body{
     height: 200vh;
+    color:white;
 }
 /* h1, h2{
     
     color:rgb(255, 255, 255);
 } */
-
-body{
-    color:white;
+.sections{
+    font-size: 16px;
 }
 .mytext {
     color:cornflowerblue;
@@ -32,7 +32,7 @@ body{
   }
 
 
-  ul {
+ul {
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -44,11 +44,11 @@ body{
 
 code{
     /* font-family: 'Courier New', Courier, monospace; */
-    font-size: 20px;
+    font-size: 15px;
     line-height: 19px;
 }
 pre {
-	background-color: #515151;
+	background-color: #000000;
 	border: 1px solid #cccccc;
 	border-radius: 1px;
 	overflow-x: auto;
@@ -87,4 +87,14 @@ pre code {
 
 .hljs-strong {
 	font-weight: bold;
+}
+.hljs-number{
+    color: orange;
+}
+.hljs-keyword{
+    color:violet;
+}
+
+.hljs-title{
+    color:cyan;
 }
