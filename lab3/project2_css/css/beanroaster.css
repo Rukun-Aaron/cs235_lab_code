@@ -85,7 +85,9 @@ footer {
 	position: absolute; 
 	left: 0; 
 	top: 0; 
-	z-index: 0
+	z-index: 0;
+    width:470; 
+    height:300;
 }
 
 #cnvZoomPixels{
@@ -117,6 +119,10 @@ footer {
     z-index: 0;
 }
 
+#dvResultsTable{
+    width:622px;
+}
+
 #tdcolrlabel{
     width: 80%;
 }
@@ -127,10 +133,44 @@ footer {
 
 #dvcomments{
 	width:622px;
-    text-align: center
+    text-align: center;
 }
 
 #imgPreview{
     image-orientation: from-image; 
     display:none
+}
+
+#SelectImage{
+    width: 643px;
+}
+#SelectImage >table{
+    width: 100%;
+}
+#Canvas{
+    width:622px;
+    height:302px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+#uploadImage{
+    float:left;
+}
+
+#tblButtons{
+    width:622px;
+}
+
+#tblButtons > table{
+    width:100%
+}
+
+.tableButton{
+    background-color:rgb(255, 255, 255) ;
+}
+
+#nothing{
+    image-orientation: from-image; 
+    display:none;
 }
